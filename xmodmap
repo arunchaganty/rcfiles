@@ -1,0 +1,17 @@
+!  
+! Make Caps_Lock a Control key
+
+clear Control
+add Control = Control_L Control_R
+
+clear Lock
+keycode 66 = Control_R
+add Control = Control_R
+
+! 50 is Shift_L
+! Don't remap shift - giving me RSI
+! keycode  50 = Super_R NoSymbol Super_R
+clear Shift
+add Shift = Shift_R Shift_L
+! clear Mod4
+! add Mod4 = Super_R

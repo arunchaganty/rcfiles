@@ -1,0 +1,8 @@
+source $HOME/.shells/functions
+source $HOME/.shells/alias
+source $HOME/.shells/exports
+[[ -f $HOME/.shells-local/exports ]] && source $HOME/.shells-local/exports
+[[ -f $HOME/.shells-local/functions ]] && source $HOME/.shells-local/functions
+[[ -f $HOME/.shells-local/alias ]] && source $HOME/.shells-local/alias
+
+# vim:ft=sh

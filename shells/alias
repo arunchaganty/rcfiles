@@ -1,0 +1,14 @@
+# Cute shell shortcuts
+alias ls='ls --sort=extension --color=auto'
+alias ll='ls -lh --color=auto'
+alias psg='ps -ax | grep'
+alias se='sudo vim'
+alias e='vim'
+alias g='grep --color -n'
+
+if `isosx`; then
+  alias c='pbcopy';
+else
+  alias c='xclip -selection clipboard';
+fi
+# vim:ft=sh
