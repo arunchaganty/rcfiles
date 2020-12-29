@@ -26,3 +26,6 @@
 	cmd = vim -f -c \"Gdiff\" \"$MERGED\"
 [merge]
 	tool = fugitive
+[pull]
+	ff = only
+	rebase = true
