@@ -27,7 +27,7 @@ plugins=(
   vi-mode
 )
 
-# FZF optiosn
+# FZF options
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 FZF_BASE=/usr/local/opt/fzf/
